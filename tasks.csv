@@ -1,0 +1,10 @@
+ADD_ILO_CLIENT,10.81.36.2,user,HP3advance,FALSE
+ADD_ILO_CLIENT,10.81.36.3,user,HP3advance,FALSE
+ADD_ONEVIEW_CLIENT,10.81.20.100,administrator,hpevse123,false
+ADD_USER,TestUser1,TestPassword1,,
+ADD_USER,TestUser2,TestPassword2,,
+DELETE_USER,TestUser1,,,
+DELETE_USER,TestUser2,,,
+ADD_SERVER_PROFILE_FROM_TEMPLATE,ServerProfile2,"description: 'Override Description',boot: { 'order' => [],'manageBoot' => false}",Ford-NGDC,A22-360-03-iLO
+
+
